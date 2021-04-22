@@ -8,5 +8,5 @@ function notHelloWorld() {
 }
 
 function sayHello() {
-    return ""
+    return "Hello, Jane!";
 }

@@ -14,12 +14,16 @@ describe('helloWorld', function() {
     });
 });
 
-describe('sayHello', function() {
-    it('should be a defined function', function() {
-        expect(typeof sayHello).toBe('function');
-    });
-    it('sayHello should return a string', function() {
-        expect(typeof sayHello(name)).toBe('string');
-    });
+//----------------------------------
 
+describe("sayHello", function() {
+    it("should be a defined function", function() {
+        expect(typeof sayHello).toBe("function");
+    });
+    it("sayHello should return a string", function() {
+        expect(typeof sayHello()).toBe("string");
+    });
+    it("should return 'Hello, Jane!'", function() {
+        expect(sayHello("Jane")).toBe("Hello, Jane!");
+    });
 })

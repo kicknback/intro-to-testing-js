@@ -7,6 +7,6 @@ function notHelloWorld() {
     return "Let's hope this works";
 }
 
-function sayHello(name) {
-
+function sayHello() {
+    return ""
 }

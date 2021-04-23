@@ -7,6 +7,6 @@ function notHelloWorld() {
     return "Let's hope this works";
 }
 
-function sayHello() {
-    return "Hello, Jane!";
+function sayHello(input) {
+    return `Hello, ${input}!`;
 }

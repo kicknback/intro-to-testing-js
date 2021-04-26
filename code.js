@@ -26,3 +26,12 @@ function isFive(input) {
 function isEven(input) {
     return input % 2 === 0;
 }
+
+function isVowel(input) {
+    if (typeof input === 'boolean' || !input) {
+        return false;
+    } else if (input.length > 1) {
+        return false;
+    }
+    return /[aeiou]/gi.test(input);
+}

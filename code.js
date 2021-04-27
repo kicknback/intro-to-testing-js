@@ -39,4 +39,3 @@ function isVowel(input) {
 function add(input1, input2) {
     return Number(input1) + Number(input2);
 }
-console.log(add("banana", "split"));
